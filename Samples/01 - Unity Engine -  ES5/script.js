@@ -1,13 +1,10 @@
-import SpiritEngine from "https://cdn.retorik.ai/spiritengine/sdk/alpha/module.js";
-//const SpiritEngine = require('retorik-spiritengine')
-
 let LICENSE = 'your-licence-here'
 const agentUrl = "https://cdn.retorik.ai/spiritengine/Jean-Pierre/";
 
 window.spiritEngine = window.SpiritEngine.renderSpiritEngine(
   LICENCE, 
   agentUrl,
-  'spiritEngine',
+  document.getElementById('spiritEngine'),
   {
     onProgress: UnityProgress,
   }

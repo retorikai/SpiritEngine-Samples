@@ -1,4 +1,4 @@
-import SpiritEngine from "https://cdn.retorik.ai/spiritengine/sdk/alpha/module.js";
+import SpiritEngine from "https://cdn.retorik.ai/spiritengine/sdk/alpha/spiritengine-module.js";
 //const SpiritEngine = require('retorik-spiritengine')
 
 let LICENSE = 'your-licence-here'
