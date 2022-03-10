@@ -1,10 +1,10 @@
-import SpiritEngine from "https://cdn.retorik.ai/spiritengine/sdk/alpha/spiritengine-module.js";
+import SpiritEngine from "https://cdn.retorik.ai/spiritengine/sdk/alpha/spiritengine.js";
 //const SpiritEngine = require('retorik-spiritengine')
 
-let LICENSE = 'your-licence-here'
+const licence = 'your-licence-here';
 const animationLocation = "https://cdn.retorik.ai/spiritengine/Jean-Pierre/";
 
-window.spiritEngine = new SpiritEngine(LICENCE, animationLocation);
+window.spiritEngine = new SpiritEngine(licence, animationLocation);
 
 window.spiritEngine.render(
   document.getElementById('spiritEngine'),
